@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.welcome{
+    background-image: url(images/backgImage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+     height: 45vh;
+     background-color: black;
+    opacity:1;
+    text-align: center;
+    color: white;
+    text-size-adjust: 10px;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.first-p{
+    padding-top: 40px;
+}
+button{
+padding:15px 20px;
+margin: 30px;
+background-color: dimgray;
+color: white;
+font-size: 20px;
+border: none;
+cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.container-1{
+height: 30vh;
+background-color: lightgray;
+text-align: center;
+}
+
+.head{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.sub{
+padding-top:30px;
+display: inline-flex;
+margin-right:80px;
+   
+}
+
+
+
+
+.glid-container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.content{
+    margin-top: 30px;
+}
+.grid-content{
+    background-color: white;
+    margin: 50px;
+    text-align: center;
+    
+}
+.develop{
+    padding: 20px;
+
+}
+.para{
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.handle{
+    text-align: center;
+    padding-top: 40px;
+}
+.second{
+    margin-bottom: 60px;
+}
+.mail{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+.grid-container-2{
+    grid-template-columns: auto auto;
+    display: grid;
+}
+
+#contact{
+    background-color: dodgerblue;
+    color: white;
+    
+}
+
+#about{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.info{
+    padding-top: 60px;
+}
+
+.lorem{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+ .container-3{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+   
+ }
+ #name{
+    margin-left: 50%;
+    text-align: center;
+    padding: 20px;
+ }
+ #web{
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px;
+ }
+ 
+
+ @media screen and (width <= 768px){
+    body{
+        display: inline;
+        
+    } 
+
+.welcome{
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.glid-container{
+    display: inline;
+}
+.grid-container-2{
+    display: inline;
+}
+.container-1{
+    display: inline;
+    background-color: white;
+}
+    
+}
